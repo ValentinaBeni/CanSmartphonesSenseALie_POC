@@ -1,0 +1,92 @@
+[
+    {
+        "id": 0,
+        "text": "Qual è il tuo genere?",
+        "type": "control"
+    },
+    {
+        "id": 1,
+        "text": "Qual è il colore della tua pelle?",
+        "type": "control"
+    },
+    {
+        "id": 2,
+        "text": "Qual è il colore dei tuoi capelli?",
+        "type": "control"
+    },
+    {
+        "id": 3,
+        "text": "Qual è la tua nazionalità?",
+        "type": "control"
+    },
+    {
+        "id": 4,
+        "text": "Qual è il tuo nome?",
+        "type": "expected"
+    },
+    {
+        "id": 5,
+        "text": "Qual è il tuo cognome?",
+        "type": "expected"
+    },
+    {
+        "id": 6,
+        "text": "In che anno sei nato?",
+        "type": "expected"
+    },
+    {
+        "id": 7,
+        "text": "In che mese sei nato?",
+        "type": "expected"
+    },
+    {
+        "id": 8,
+        "text": "In quale città sei nato?",
+        "type": "expected"
+    },
+    {
+        "id": 9,
+        "text": "In quale città vivi?",
+        "type": "expected"
+    },
+    {
+        "id": 10,
+        "text": "Qual è il tuo indirizzo di casa?",
+        "type": "expected"
+    },
+    {
+        "id": 11,
+        "text": "Qual è il tuo indirizzo e-mail?",
+        "type": "expected"
+    },
+    {
+        "id": 12,
+        "text": "Quanti anni hai? (scrivi la risposta in lettere)",
+        "type": "unexpected"
+    },
+    {
+        "id": 13,
+        "text": "Qual è il tuo segno zodiacale?",
+        "type": "unexpected"
+    },
+    {
+        "id": 14,
+        "text": "In quale regione sei nato?",
+        "type": "unexpected"
+    },
+    {
+        "id": 15,
+        "text": "In quale provincia sei nato?",
+        "type": "unexpected"
+    },
+    {
+        "id": 16,
+        "text": "In quale regione vivi?",
+        "type": "unexpected"
+    },
+    {
+        "id": 17,
+        "text": "Qual è il capoluogo della tua regione di residenza?",
+        "type": "unexpected"
+    }
+]

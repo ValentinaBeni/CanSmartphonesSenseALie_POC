@@ -1,0 +1,79 @@
+{
+    "male": {
+        "name": {
+            "value": "Mario",
+            "label": "Nome"
+        },
+        "surname": {
+            "value": "Bianchi",
+            "label": "Cognome"
+        },
+        "birthYear": {
+            "value": "1992",
+            "label": "Anno di nascita"
+        },
+        "birthMonth": {
+            "value": "Luglio",
+            "label": "Mese di nascita"
+        },
+        "birthDay": {
+            "value": "23",
+            "label": "Giorno di nascita"
+        },               
+        "birthCity": {
+            "value": "Chieti",
+            "label": "Città di nascita"
+        },         
+        "residenceCity": {
+            "value": "Imperia",
+            "label": "Città di residenza"
+        },     
+        "residenceAddress": {
+            "value": "Via Roma 1",
+            "label": "Indirizzo di residenza"
+        },
+        "email": {
+            "value": "marco.bianchi92@gmail.com",
+            "label": "Indirizzo email"
+        }
+    },
+    "female": {
+        "name": {
+            "value": "Sofia",
+            "label": "Nome"
+        },
+        "surname": {
+            "value": "Rossi",
+            "label": "Cognome"
+        },
+        "birthYear": {
+            "value": "1995",
+            "label": "Anno di nascita"
+        },
+        "birthMonth": {
+            "value": "Marzo",
+            "label": "Mese di nascita"
+        },
+        "birthDay": {
+            "value": "12",
+            "label": "Giorno di nascita"
+        },               
+        "birthCity": {
+            "value": "Isernia",
+            "label": "Città di nascita"
+        },         
+        "residenceCity": {
+            "value": "Pescara",
+            "label": "Città di residenza"
+        },     
+        "residenceAddress": {
+            "value": "Via Roma 1",
+            "label": "Indirizzo di residenza"
+        },
+        "email": {
+            "value": "sofia.rossi95@gmail.com",
+            "label": "Indirizzo email"
+        }
+        
+    }
+}

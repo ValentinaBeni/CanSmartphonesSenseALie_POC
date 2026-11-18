@@ -1,0 +1,55 @@
+.mode-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.mode-button {
+    padding: 1rem 1rem;
+    border: 3px solid #e9ecef;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.truth-button:hover {
+    border-color: #28a745;
+    background-color: #f0fff4;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(40, 167, 69, 0.2);
+}
+
+.truth-button.active {
+    border-color: #28a745;
+    background-color: #e8f5e9;
+}
+
+.lie-button:hover {
+    border-color: #dc3545;
+    background-color: #fff5f5;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(220, 53, 69, 0.2);
+}
+
+.lie-button.active {
+    border-color: #dc3545;
+    background-color: #ffebee;
+}
+
+.mode-title {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.mode-description {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+}
