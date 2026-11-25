@@ -53,3 +53,9 @@
     color: #666;
     line-height: 1.5;
 }
+
+@media (max-width: 600px) {
+    .mode-selection {
+        grid-template-columns: 1fr;
+    }
+}

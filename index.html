@@ -16,8 +16,9 @@
 <body>
     <header>
         <nav>
-            <div class="logo">Smartphone Lie Detection</div>
-            <div class="menu-toggle" id="menuToggle">☰</div>
+            <div class="logo">Can Smartphones Sense a Lie?</div>
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Apri il menu"
+                aria-controls="navLinks" aria-expanded="false">☰</button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="components/privacy.html">Privacy</a></li>
@@ -27,25 +28,27 @@
     </header>
 
     <main>
-        <section id="acceptPrivacy" class="accept-privacy"></section>
-        <section id="selectMode" class="hidden"></section>
-        <section id="selectProfile" class="hidden"></section>
-        <section id="questionForm" class="hidden"></section>
-        <div id="waitingPage" class="hidden"></div>
-        <section id="finalPage" class="hidden"></section>
+        <div class="study-card">
+            <section id="acceptPrivacy" class="accept-privacy"></section>
+            <section id="selectMode" class="hidden"></section>
+            <section id="selectProfile" class="hidden"></section>
+            <section id="questionForm" class="hidden"></section>
+            <div id="waitingPage" class="hidden"></div>
+            <section id="finalPage" class="hidden"></section>
+        </div>
     </main>
 
     <footer>
-        <p>2026 Smartphone Lie Detection </p>
+        <p>2026 Can Smartphones Sense a Lie?</p>
         <div class="social-links">
             <!--- <a href="#">Facebook</a>
             <a href="#">Instagram</a>
             <a href="#">LinkedIn</a> --->
         </div>
     </footer>
+
+    <script src="scripts/navigation.js"></script>
+    <script type="module" src="scripts/fetch_elements.js"></script>
 </body>
-
-<script type="module" src="scripts/fetch_elements.js"></script>
-
 
 </html>
